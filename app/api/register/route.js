@@ -1,4 +1,5 @@
-import { db } from '../../../src/prisma/db';
+import { db } from "../../../src/prisma/db";
+
 import bcrypt from 'bcryptjs';
 
 export async function POST(request) {
